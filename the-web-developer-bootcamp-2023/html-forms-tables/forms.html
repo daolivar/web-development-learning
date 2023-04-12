@@ -12,7 +12,7 @@
     <!-- represents a section in the document containing interactive controls for submitting info -->
     <!-- action attr specifies WHERE form data should be sent -->
     <!-- method attr specifies which HTTP method should be used    -->
-    <form action="">
+    <form action="/myaction">
         <!-- there are various input elements we can use within a form to obtain data -->
         <div>
             <label for="username">Enter Username: </label>
@@ -30,6 +30,15 @@
             <label for="num">Enter a number: </label>
             <input type="number" placeholder="enter a number" name="" id="num">
         </div>
+        <!-- this button doesn't submit the form b/c of the type attr -->
+        <button type="button">Regular button (no submit)</button>
+        <!-- this button submits the form (behavior when no type attr and within form) -->
+        <button>Submit</button>
+        <!-- This is a button using input & type atrr to create -->
+        <input type="submit" value="I also Submit">
     </form>
+    <hr>
+    <!-- outside of form, no default behavior as above -->
+    <button>Not Inside From</button>
 </body>
 </html>
