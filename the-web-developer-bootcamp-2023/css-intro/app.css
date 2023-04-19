@@ -1,0 +1,9 @@
+/*
+    **basic syntax**
+    selector {
+        property: value;
+    }
+*/
+h2 {
+    color: indigo;
+}
