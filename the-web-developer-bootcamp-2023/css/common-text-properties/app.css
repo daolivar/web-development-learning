@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+    /* can also use numeric value; normal = 400 */
+    font-weight: normal;
+    /* text decoration has many properties we can include */
+    text-decoration: #FF0000 underline dotted;
+    letter-spacing: 15px;
+}
+
+p {
+    line-height: 2;
+}
