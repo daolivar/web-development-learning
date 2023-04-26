@@ -5,7 +5,9 @@ h1 {
     /* text decoration has many properties we can include */
     text-decoration: #FF0000 underline dotted;
     letter-spacing: 15px;
-    font-size: 100px;
+    font-size: 75px;
+    /* list of fonts for cross platform compatability */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p {
