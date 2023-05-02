@@ -24,3 +24,10 @@ h1, h2 {
     background-color: #bc6c25;
     color: #fefae0;
 }
+
+/* class selector */
+.tag {
+    background-color: #606c38;
+    color: #fefae0;
+    font-size: 16px;
+}
