@@ -31,3 +31,13 @@ h1, h2 {
     color: #fefae0;
     font-size: 16px;
 }
+
+/* descendant selector */
+/* basically reads as "apply style to all anchor tags that are children of element/class */
+.post a {
+    color: red;
+}
+
+footer a {
+    color: turquoise;
+}
