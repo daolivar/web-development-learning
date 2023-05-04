@@ -36,6 +36,8 @@ h1, h2 {
 /* reads as "apply style to all <<element>> that are children of <<element/class>> */
 .post a {
     color: red;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 footer a {
@@ -50,4 +52,26 @@ h2 + button {
 /* direct child/descendant selector: any <<element>> directly within <<element>> */
 footer > a {
     color: green;
+}
+
+/* attribute selector */
+input[type="password"] {
+    color: red;
+}
+
+/* pseudo classes */
+.post button:hover {
+    color: whitesmoke;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post button:active {
+    background-color: turquoise;
+}
+
+.post:nth-of-type(2n) {
+    background-color: #c9c6b1;
 }
