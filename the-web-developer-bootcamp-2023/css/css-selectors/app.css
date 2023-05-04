@@ -33,11 +33,21 @@ h1, h2 {
 }
 
 /* descendant selector */
-/* basically reads as "apply style to all anchor tags that are children of element/class */
+/* reads as "apply style to all <<element>> that are children of <<element/class>> */
 .post a {
     color: red;
 }
 
 footer a {
     color: turquoise;
+}
+
+/* adjacent selector: apply style to <<element>> directly adjacent to <<element>> */
+h2 + button {
+    font-size: 20px;
+}
+
+/* direct child/descendant selector: any <<element>> directly within <<element>> */
+footer > a {
+    color: green;
 }
